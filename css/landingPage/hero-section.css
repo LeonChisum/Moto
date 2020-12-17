@@ -1,0 +1,46 @@
+#hero-section {
+	font-family: 'Andika', sans-serif;
+	padding: 37px 0;
+}
+
+.img-wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+img {
+	width: 100%;
+}
+.heading-wrapper {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+.heading-wrapper a {
+	text-decoration: none;
+	align-self: center;
+	color: black;
+}
+.heading-wrapper .product-heading {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	width: 40%;
+	font-size: 2.4rem;
+}
+.desc {
+	font-family: 'Andika', sans-serif;
+	font-size: 0.9rem;
+	padding: 40px 10px;
+	line-height: 1.8;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

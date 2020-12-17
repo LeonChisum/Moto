@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Andika&display=swap');
+@import './cssreset.css';
+@import './landingPage/hero-section.css';
+@import './landingPage/motoX-section.css';
+@import './landingPage/motoZoom-section.css';
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Andika', sans-serif; */
+
+:root {
+	--main-color: RGBA(86, 101, 213, 0.18);
+}
+
+.main-container {
+	padding: 15px 5px;
+}
+.header .header-container {
+	width: 100%;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+.header-container .logo {
+	width: 73px;
+	padding-top: 5px;
+}
+.header-container .logo img {
+	width: 100%;
+}
+
+header .header-container .header-menu {
+	display: none;
+}
+.header-container .menu-btn {
+	position: absolute;
+	top: 13px;
+	right: 17px;
+	font-size: 2rem;
+}
+
+footer {
+	background-color: var(--main-color);
+}
+
+footer .footer-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px 25px;
+	height: 171px;
+}
+
+footer .footer-wrapper a {
+	text-decoration: none;
+	color: black;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

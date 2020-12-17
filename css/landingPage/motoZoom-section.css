@@ -1,0 +1,31 @@
+#motoZoom-section {
+}
+#motoZoom-section .heading-wrapper {
+	padding-bottom: 45px;
+}
+#motoZoom-section .heading-wrapper span {
+	color: #9e0523;
+}
+.heading-wrapper a {
+	position: relative;
+}
+
+.heading-wrapper .arrow {
+	position: absolute;
+	left: 65px;
+
+	transition: all 1s ease-in-out;
+	animation: ani 1.7s infinite;
+}
+
+@keyframes ani {
+	0% {
+		left: 65px;
+	}
+	50% {
+		left: 70px;
+	}
+	100% {
+		left: 65px;
+	}
+}

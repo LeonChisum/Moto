@@ -1,0 +1,72 @@
+#motoX-section {
+	padding: 65px 0;
+	background-color: var(--main-color);
+	position: relative;
+}
+
+#motoX-section .heading-wrapper {
+	justify-content: space-evenly;
+}
+#motoX-section .heading-wrapper .product-heading {
+	width: 75%;
+}
+#motoX-section .img-wrapper {
+	right: 0;
+	top: 33%;
+	left: 33%;
+	width: 52%;
+	position: absolute;
+	margin: 0 auto;
+}
+#motoX-section .info-wrapper {
+	padding-bottom: 23%;
+	padding-top: 63%;
+	display: flex;
+	height: 215px;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+#motoX-section .info-wrapper .icons {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#motoX-section .info-wrapper .icons .fas {
+	font-size: 1.2rem;
+}
+#motoX-section .info-wrapper p {
+	font-family: 'Andika', sans-serif;
+	font-size: 0.9rem;
+	padding-top: 10px;
+	font-weight: lighter;
+	font-variant: small-caps;
+}
+#motoX-section svg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+	#motoX-section .img-wrapper {
+		right: 0;
+		top: 37%;
+		width: 65%;
+		position: absolute;
+		margin: 0 auto;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
