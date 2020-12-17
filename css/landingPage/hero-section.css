@@ -1,6 +1,6 @@
 #hero-section {
 	font-family: 'Andika', sans-serif;
-	padding: 37px 0;
+	padding: 37px 0px 55px 0px;
 }
 
 .img-wrapper {
@@ -29,7 +29,7 @@ img {
 .desc {
 	font-family: 'Andika', sans-serif;
 	font-size: 0.9rem;
-	padding: 40px 10px;
+	padding: 40px 10px 7px 10px;
 	line-height: 1.8;
 }
 

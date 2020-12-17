@@ -3,11 +3,13 @@
 @import './landingPage/hero-section.css';
 @import './landingPage/motoX-section.css';
 @import './landingPage/motoZoom-section.css';
+@import './landingPage/cta-section.css';
 /* font-family: 'Amatic SC', cursive;
 font-family: 'Andika', sans-serif; */
 
 :root {
 	--main-color: RGBA(86, 101, 213, 0.18);
+	--secondary-color: #9e0523;
 }
 
 .main-container {
@@ -46,7 +48,8 @@ footer .footer-wrapper {
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 10px 25px;
-	height: 171px;
+	padding-bottom: 33px;
+	height: 174px;
 }
 
 footer .footer-wrapper a {
