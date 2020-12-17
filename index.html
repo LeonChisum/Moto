@@ -127,14 +127,14 @@
 				</p>
 			</div>
 		</section>
-		<section id="cta">
+		<section id="cta-section">
 			<div class="main-container">
 				<div class="cta-info">
 					<h2>Ready to Ride?</h2>
-					<p>Enter your email to solidify for more information</p>
-				</div>
-				<div class="cta-form">
-					
+					<form action="emailForm.php" autocomplete="on" method="POST">
+						<input type="email" id="email" name="email" placeholder="Email" required><br>
+						<input type="submit" value="Join Pre-Order List">
+					  </form>
 				</div>
 			</div>
 		</section>

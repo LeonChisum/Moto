@@ -1,0 +1,48 @@
+#cta-section {
+	background: url('../../img/MotoCta.png');
+	background-size: 63%;
+	background-repeat: no-repeat;
+	background-position-y: 15px;
+	background-position-x: -10px;
+	position: relative;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#cta-section::before {
+	content: '';
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #16171b;
+	position: absolute;
+	opacity: 0.4;
+	z-index: -1;
+}
+#cta-section .cta-info {
+	padding: 10px 15px;
+	text-align: right;
+	position: relative;
+	z-index: 1;
+}
+#cta-section .cta-info h2 {
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	font-size: 2.1rem;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#cta-section .cta-info form input {
+	border: 0;
+	padding: 7px;
+	border-radius: 5px;
+	width: 145px;
+	margin-bottom: 7px;
+}
+#cta-section .cta-info form input[type='submit'] {
+	width: 145px;
+	background-color: var(--secondary-color);
+	color: white;
+}
