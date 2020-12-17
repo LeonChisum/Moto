@@ -15,12 +15,11 @@
 	top: 33%;
 	left: 33%;
 	width: 52%;
-	position: absolute;
 	margin: 0 auto;
 }
 #motoX-section .info-wrapper {
 	padding-bottom: 23%;
-	padding-top: 63%;
+	padding-top: 19%;
 	display: flex;
 	height: 215px;
 	flex-direction: column;
